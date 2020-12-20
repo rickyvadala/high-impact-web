@@ -1,0 +1,32 @@
+.main-logo-hi {
+    height: 500px;
+    margin-top: -200px;
+    -webkit-text-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-text-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.vector-image {
+    opacity: 0.3;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-logo-hi {
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-style-11 .image-layer {
+        display: block;
+        z-index: 0;
+    }
+    .banner-style-11 {
+        background: #fff;
+        height: 100vh;
+    }
+    .main-logo-hi {
+        height: auto;
+        margin-top: 0;
+    }
+}
