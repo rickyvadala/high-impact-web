@@ -30,3 +30,48 @@
         margin-top: 0;
     }
 }
+
+
+/*Se modificó el font-size, el resto de los valores se copiaron de syle css porque el margin solo no lo tomaba*/
+
+#content_block_28 .content-box .text {
+    position: relative;
+    display: block;
+    font-size: 20px !important;
+    margin-bottom: 51px;
+}
+
+
+/*Se modificó el font-size, el resto de los valores se copiaron de syle css porque el margin solo no lo tomaba*/
+
+.sec-title p {
+    position: relative;
+    display: block;
+    font-size: 20px !important;
+    line-height: 30px;
+    color: #777;
+    margin: 0px;
+}
+
+
+/*Se agregó margin a las cards, el resto de los valores se copiaron de syle css porque el margin solo no lo tomaba*/
+
+.organization-section .single-item .inner-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    margin: 0px 0px 25px 0px;
+    padding: 70px 30px 44px 30px;
+    border-radius: 20px;
+    transition: all 500ms ease;
+    box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.image-padding {
+    padding: 0px 0px 28px 0px;
+}
+
+.alignItems {
+    vertical-align: center !important;
+}
