@@ -75,3 +75,20 @@
 .alignItems {
     vertical-align: center !important;
 }
+
+.inline-block {
+    display: inline;
+}
+
+.row2 {
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+#content_block_30 .content-box {
+    position: relative;
+    margin-right: 70px;
+    padding-top: 0px;
+}
