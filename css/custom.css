@@ -161,6 +161,8 @@
                     position: relative;
                     padding: 50px 0px 50px 0px;
                 }
-                /* .sec-title h2 {
-                    margin-top: 50px !important;
-                } */
+                /**Padding superior titulo contacto**/
+                
+                .conctact-title-padding {
+                    padding-top: 75px !important;
+                }
