@@ -183,24 +183,39 @@
                                             .clients-style-two .inner-container:before {
                                                 box-shadow: 0 5px 30px 0px rgb(0 0 0);
                                             }
+                                            /** Figuras en sección Nosotros**/
                                             
                                             #image_block_28 .image-box .anim-icons .icon-1 {
-                                                top: -122px;
-                                                left: 142px;
+                                                top: -240px;
+                                                left: -74px;
+                                            }
+                                            
+                                            #image_block_28 .image-box .anim-icons .icon-2 {
+                                                top: -50px;
+                                                right: 0px;
+                                            }
+                                            
+                                            #image_block_28 .image-box .anim-icons .icon-3 {
+                                                right: 637px;
+                                                bottom: -185px;
                                             }
                                             
                                             #image_block_28 .image-box .anim-icons .icon-1B {
-                                                position: absolute;
-                                                top: 129px;
-                                                left: 1500PX;
+                                                top: 592px;
+                                                left: -27px;
                                             }
                                             
-                                            #image_block_28 .image-box .anim-icons .icon-2B .rotate-me {
-                                                top: 12px;
-                                                left: 478px;
+                                            #image_block_28 .image-box .anim-icons .icon-2B {
+                                                top: 708px;
+                                                right: -81px;
                                             }
                                             
                                             #image_block_28 .image-box .anim-icons .icon-3B {
-                                                top: 0px;
-                                                left: 530PX;
+                                                right: -115px;
+                                                bottom: 709px;
+                                            }
+                                            
+                                            #image_block_28 .image-box .anim-icons .icon-2C {
+                                                top: 327px;
+                                                left: -250px;
                                             }
