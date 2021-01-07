@@ -222,9 +222,22 @@
                                                 /**Ajustes Menú**/
                                                 
                                                 .main-menu .navigation>li>a {
-                                                    font-size: 14px;
+                                                    font-size: 14.6px;
                                                 }
                                                 
                                                 .main-menu .navigation>li {
                                                     margin: 0px 17px;
+                                                }
+                                                
+                                                .main-footer.style-three .anim-icons .icon {
+                                                    background: rgba(255, 255, 255, 0.19);
+                                                    border-radius: 10px;
+                                                }
+                                                
+                                                .text-footer {
+                                                    text-align: justify;
+                                                }
+                                                
+                                                .main-footer .footer-top .contact-widget .list li:first-child {
+                                                    margin-bottom: 0px;
                                                 }
