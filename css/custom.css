@@ -299,3 +299,11 @@
                                             left: 20px;
                                             top: 85px;
                                         }
+                                        
+                                        .parallax-product {
+                                            height: 100%;
+                                            background-attachment: fixed;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                        }
