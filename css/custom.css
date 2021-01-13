@@ -473,9 +473,6 @@ strong {
         right: -5%;
         bottom: 19%;
     }
-    .organization-section {
-        background-color: grey;
-    }
 }
 
 @media only screen and (max-width: 768px) {
