@@ -612,4 +612,7 @@ strong {
     .testimonial-style-eight .il-top {
         display: none;
     }
+    .software-product .image-box img {
+        display: none;
+    }
 }
