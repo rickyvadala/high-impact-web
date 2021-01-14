@@ -363,6 +363,7 @@ html {
 
 #products .sec-title h2 {
     color: #ffffff;
+    text-shadow: -1px 1px 9px rgba(0, 0, 0, 0.6);
 }
 
 b,
@@ -536,5 +537,79 @@ strong {
 }
 
 .main-footer.style-three .footer-top {
-    padding-top: 70px;
+    padding: 50px 0 50px 0;
+}
+
+.main-footer.style-three .anim-icons .icon-1 {
+    -webkit-animation: zoom-fade-three 2s infinite linear;
+    animation: zoom-fade-three 2s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-2 {
+    -webkit-animation: zoom-fade-three 5s infinite linear;
+    animation: zoom-fade-three 5s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-3 {
+    -webkit-animation: zoom-fade-three 3s infinite linear;
+    animation: zoom-fade-three 3s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-4 {
+    -webkit-animation: zoom-fade-three 2s infinite linear;
+    animation: zoom-fade-three 2s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-5 {
+    -webkit-animation: zoom-fade-three 5s infinite linear;
+    animation: zoom-fade-three 5s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-6 {
+    -webkit-animation: zoom-fade-three 2s infinite linear;
+    animation: zoom-fade-three 2s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-7 {
+    -webkit-animation: zoom-fade-three 5s infinite linear;
+    animation: zoom-fade-three 5s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-8 {
+    -webkit-animation: zoom-fade-three 3s infinite linear;
+    animation: zoom-fade-three 3s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-9 {
+    -webkit-animation: zoom-fade-three 2s infinite linear;
+    animation: zoom-fade-three 2s infinite linear;
+}
+
+.main-footer.style-three .anim-icons .icon-10 {
+    -webkit-animation: zoom-fade-three 5s infinite linear;
+    animation: zoom-fade-three 5s infinite linear;
+}
+
+#products sec-title p {
+    position: relative;
+    display: block;
+    font-size: 20px !important;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 0px;
+    text-shadow: -1px 1px 9px rgba(0, 0, 0, 0.6);
+}
+
+#tecnologies .text {
+    font-size: 16px !important;
+}
+
+@media (max-width: 992px) {
+    .testimonial-style-eight .il-bottom {
+        display: block;
+        height: 100%;
+    }
+    .testimonial-style-eight .il-top {
+        display: none;
+    }
 }

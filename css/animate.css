@@ -3402,6 +3402,36 @@ Copyright (c) 2015 Daniel Eden
     }
 }
 
+@-webkit-keyframes zoom-fade-three {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes zoom-fade-three {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
 .banner .parallax-container div img,
 .fullwidth-video-section .play-link .icon-box {
     animation-name: zoom-fade;
