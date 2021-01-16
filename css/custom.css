@@ -474,6 +474,9 @@ strong {
         right: -5%;
         bottom: 19%;
     }
+    #clients .clients-right-image {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -615,4 +618,22 @@ strong {
     .software-product .image-box img {
         display: none;
     }
+}
+
+.testimonial-style-seven {
+    position: relative;
+    padding: 150px 0px 200px 0px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    MARGIN-BOTTOM: -150PX;
+}
+
+#clients .sec-title h2 {
+    margin-top: 0px;
+}
+
+.main-footer.style-three {
+    text-shadow: 0 0 2px black;
 }
