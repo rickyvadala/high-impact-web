@@ -640,7 +640,7 @@ strong {
 
 .testimonial-style-seven {
     position: relative;
-    padding: 150px 0 200px 0;
+    padding: 180px 0 200px 0;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -709,7 +709,7 @@ strong {
 
 #products .bg-white-services {
     position: absolute;
-    top: 0;
+    top: -5px;
     width: 100vw;
 }
 
