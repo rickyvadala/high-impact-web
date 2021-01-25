@@ -740,3 +740,7 @@ strong {
     color: #3F51B5;
     margin: -35px 0 71px 0;
 }
+
+.main-footer img {
+    margin-top: -8px;
+}
