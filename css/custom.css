@@ -734,3 +734,9 @@ strong {
 #content_block_30 .content-box .text {
     font-size: 19px !important;
 }
+
+.software-product .sec-title p {
+    text-align: center;
+    color: #3F51B5;
+    margin: -35px 0 71px 0;
+}
