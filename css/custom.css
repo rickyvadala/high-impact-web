@@ -279,8 +279,8 @@ html {
 }
 
 #image_block_28 .image-box .anim-icons .icon-11 {
-    top: -50px;
-    right: -174px;
+    top: -100px;
+    right: 0px;
 }
 
 #image_block_28 .image-box .anim-icons .icon-12 {
@@ -357,6 +357,7 @@ html {
 #products .single-item {
     cursor: pointer;
 }
+
 #products .single-column {
     z-index: 100;
 }
@@ -512,9 +513,6 @@ strong {
         display: none;
     }
     .main-footer.style-three .anim-icons .icon-10 {
-        display: none;
-    }
-    .banner-style-11 .content-box .btn-box .btn-one {
         display: none;
     }
 }
@@ -756,12 +754,10 @@ strong {
     padding: 4px 0 4px 0;
 }
 
-
 @-webkit-keyframes mover {
     0% {
         transform: translateY(0)
     }
-
     100% {
         transform: translateY(-10px)
     }
@@ -771,7 +767,6 @@ strong {
     0% {
         transform: translateY(0)
     }
-
     100% {
         transform: translateY(-10px)
     }
