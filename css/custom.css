@@ -818,3 +818,9 @@ strong {
 .organization-section .sec-title h2 {
     margin-bottom: 40px;
 }
+
+.icon-box-service {
+    line-height: 100px !important;
+    height: 100px;
+    font-size: 100px !important;
+}
