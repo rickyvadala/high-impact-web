@@ -522,101 +522,104 @@ strong {
     display: none;
 }
 
-
-}
 @media only screen and (max-width: 540px) {
     #image_block_28 .image-box .anim-icons .icon-1 {
         top: 626px;
         left: 363px;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-2 {
         top: 56px;
         right: 41px;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-3 {
         right: 324px;
         bottom: 111%;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-4 {
         top: 141%;
         left: 0;
     }
-    
     .main-footer.style-three .anim-icons .icon-7 {
         display: none;
     }
-    
     .main-footer.style-three .anim-icons .icon-9 {
         display: none;
     }
 }
+
 @media only screen and (max-width: 400px) {
     #image_block_28 .image-box .anim-icons .icon-1 {
         top: 727px;
         left: 250px;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-2 {
         top: 56px;
         right: 41px;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-3 {
         right: 265px;
         bottom: 111%;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-4 {
         top: 131%;
         left: 0;
     }
 }
+
 .main-footer.style-three .footer-top {
     padding: 50px 0 50px 0;
 }
+
 .main-footer.style-three .anim-icons .icon-1 {
     -webkit-animation: zoom-fade-three 2s infinite linear;
     animation: zoom-fade-three 2s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-2 {
     -webkit-animation: zoom-fade-three 5s infinite linear;
     animation: zoom-fade-three 5s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-3 {
     -webkit-animation: zoom-fade-three 3s infinite linear;
     animation: zoom-fade-three 3s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-4 {
     -webkit-animation: zoom-fade-three 2s infinite linear;
     animation: zoom-fade-three 2s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-5 {
     -webkit-animation: zoom-fade-three 5s infinite linear;
     animation: zoom-fade-three 5s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-6 {
     -webkit-animation: zoom-fade-three 2s infinite linear;
     animation: zoom-fade-three 2s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-7 {
     -webkit-animation: zoom-fade-three 5s infinite linear;
     animation: zoom-fade-three 5s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-8 {
     -webkit-animation: zoom-fade-three 3s infinite linear;
     animation: zoom-fade-three 3s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-9 {
     -webkit-animation: zoom-fade-three 2s infinite linear;
     animation: zoom-fade-three 2s infinite linear;
 }
+
 .main-footer.style-three .anim-icons .icon-10 {
     -webkit-animation: zoom-fade-three 5s infinite linear;
     animation: zoom-fade-three 5s infinite linear;
 }
+
 #products .sec-title p {
     position: relative;
     display: block;
@@ -626,23 +629,24 @@ strong {
     margin: 0;
     text-shadow: -1px 1px 9px rgba(0, 0, 0, 0.6);
 }
+
 #tecnologies .text {
     font-size: 18px !important;
 }
+
 @media (max-width: 992px) {
     .testimonial-style-eight .il-bottom {
         display: block;
         height: 100%;
     }
-    
     .testimonial-style-eight .il-top {
         display: none;
     }
-    
     .software-product .image-box img {
         display: none;
     }
 }
+
 .testimonial-style-seven {
     position: relative;
     padding: 180px 0 200px 0;
@@ -652,106 +656,127 @@ strong {
     background-position: top center;
     MARGIN-BOTTOM: -150PX;
 }
+
 #clients .sec-title h2 {
     margin-top: 0;
 }
+
 .main-footer.style-three {
     text-shadow: 0 0 2px black;
 }
+
 @media only screen and (max-width: 767px) {
     .main-logo-hi {
         height: auto;
         margin-top: -150px;
     }
 }
+
 .banner-style-11 {
     position: relative;
     padding: 300px 0 400px 0;
 }
+
 .organization-section .sec-title {
     margin-bottom: 60px;
     text-shadow: 0 0 2px black;
 }
+
 #clients .testimonial-inner {
     text-shadow: 0 0 2px black;
 }
+
 .vector-image img {
     height: 500px;
 }
+
 .clients-style-two {
     padding-bottom: 0;
 }
+
 .contact-section {
     padding-bottom: 0;
 }
+
 .contact-section .image-container {
     margin-bottom: 50px;
 }
+
 .security-invisible {
     padding-top: 80px;
 }
+
 #content_block_30 .content-box .sec-title h2:after {
     background: #777777;
 }
+
 .software-product .bg-white-services {
     position: absolute;
     bottom: -5px;
     width: 100vw;
 }
+
 #products .bg-white-services {
     position: absolute;
     top: -5px;
     width: 100vw;
 }
+
 .testimonial-style-eight {
     position: relative;
     padding: 120px 0px 230px 0px;
 }
+
 @media only screen and (max-width: 767px) {
     .testimonial-style-eight {
         padding: 80px 0 150px 0;
     }
-    
     .software-product {
         padding: 84px 0 80px 0
     }
 }
+
 .testimonial-style-ten {
     padding: 60px 0 100px 0;
     margin-top: -40px;
 }
+
 #content_block_30 .content-box .text {
     font-size: 18px !important;
 }
+
 .software-product .sec-title p {
     text-align: center;
     color: #3F51B5;
     margin: -35px 0 60px 0;
 }
+
 .main-footer img {
     margin-top: -8px;
 }
+
 .sticky-header .logo-box {
     padding: 4px 0 4px 0;
 }
+
 @-webkit-keyframes mover {
     0% {
         transform: translateY(0)
     }
-    
     100% {
         transform: translateY(-10px)
     }
 }
+
 @keyframes mover {
     0% {
         transform: translateY(0)
     }
-    
     100% {
         transform: translateY(-10px)
     }
 }
+
 .wapp-btn {
     position: fixed;
     display: block;
@@ -770,6 +795,7 @@ strong {
     animation: mover .5s alternate infinite;
     animation-play-state: running
 }
+
 .wapp-btn:hover {
     -webkit-transition: all .5s linear;
     -moz-transition: all .5s linear;
@@ -779,26 +805,30 @@ strong {
     transform: scale(1.2);
     opacity: .8
 }
+
 .wapp-btn:focus {
     color: #fff;
     outline: 0
 }
+
 .contact-widget a:hover {
     color: white !important;
 }
+
 .organization-section .sec-title h2 {
     margin-bottom: 40px;
 }
+
 .icon-box-service {
     line-height: 100px !important;
     height: 100px;
     font-size: 100px !important;
 }
+
 @media only screen and (max-width: 499px) {
     .banner-style-11 .content-box .btn-box {
         width: auto;
     }
-    
     #image_block_28 .image-box .anim-icons .icon-12 {
         display: none;
     }
