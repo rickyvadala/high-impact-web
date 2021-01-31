@@ -273,7 +273,7 @@ html {
 
 #image_block_28 .image-box .anim-icons .icon-10 {
     right: 50px;
-    bottom: -100px;
+    bottom: -6px;
     -webkit-animation: zoom-fade 2s infinite linear;
     animation: zoom-fade 2s infinite linear;
 }
@@ -478,7 +478,7 @@ strong {
         left: 10%;
     }
     #image_block_28 .image-box .anim-icons .icon-14 {
-        right: -5%;
+        right: 0%;
         bottom: 19%;
     }
     #clients .clients-right-image {
@@ -818,4 +818,13 @@ strong {
     line-height: 100px !important;
     height: 100px;
     font-size: 100px !important;
+}
+
+@media only screen and (max-width: 499px) {
+    .banner-style-11 .content-box .btn-box {
+        width: auto;
+    }
+    #image_block_28 .image-box .anim-icons .icon-12 {
+        display: none;
+    }
 }
