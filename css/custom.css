@@ -824,3 +824,7 @@ strong {
     height: 100px;
     font-size: 100px !important;
 }
+
+.td-none:hover {
+    text-decoration: none !important;
+}
