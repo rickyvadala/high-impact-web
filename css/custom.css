@@ -837,3 +837,7 @@ strong {
 .td-none:hover {
     text-decoration: none !important;
 }
+
+.preloader {
+    background-color: #000823;
+}
