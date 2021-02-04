@@ -1,8 +1,16 @@
 // Webpack uses this to work with directories
 const path = require('path');
+const glob = require('glob')
+
+
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const PurgeCSSPlugin = require('purgecss-webpack-plugin')
 const webpack = require('webpack');
+
+const PATHS = {
+    src: path.join(__dirname, 'src')
+}
 
 
 // This is the main configuration object.
@@ -107,11 +115,13 @@ module.exports = {
         ]
     },
     plugins: [
-
         new MiniCssExtractPlugin({
             filename: "bundle.css"
         }),
         new HtmlWebpackPlugin({template: './src/index.html'}),
+        new PurgeCSSPlugin({
+            paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
+        }),
         // new webpack.ProvidePlugin({
         //     $: 'jquery',
         //     jQuery: 'jquery'
@@ -119,8 +129,6 @@ module.exports = {
 
     ],
     // externals: {
-    //     // require("jquery") is external and available
-    //     //  on the global var jQuery
-    //     "jquery": "jQuery"
+    //     jquery: 'jQuery'
     // }
 };
